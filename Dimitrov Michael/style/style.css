@@ -81,6 +81,10 @@ section p {
 	margin-bottom: 30px;
 }
 
+ul {
+	margin-bottom: 30px;
+}
+
 main section:last-child {
 	border-bottom: none;
 	margin-bottom: 0;
