@@ -120,18 +120,22 @@ em {
 }
 
 @media (max-width: 650px) {
+
+	header {
+		padding: 0 10px;
+	}
+
+	.contacts p {
+		margin: 10px 0;
+	}
 	
 	.svg {
 		display: none;
 	}
 
-	header {
-		flex-direction: column;
-	}
-
-	.contacts p {
+	/*.contacts p {
 		margin:  10px 0;
-	}
+	}*/
 
 	.contacts {
 		display: flex;
