@@ -51,7 +51,6 @@ section {
 	border-bottom: 1px dotted red;
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
 a {
@@ -82,6 +81,8 @@ ul {
 }
 
 li {
+	flex-basis: 480px;
+	line-height: 1.3em;
 	margin-bottom: 5px;
 }
 
@@ -125,6 +126,10 @@ em {
 		padding: 0 10px;
 	}
 
+	section {
+		flex-wrap: wrap;
+	}
+
 	.contacts p {
 		margin: 10px 0;
 	}
@@ -132,10 +137,6 @@ em {
 	.svg {
 		display: none;
 	}
-
-	/*.contacts p {
-		margin:  10px 0;
-	}*/
 
 	.contacts {
 		display: flex;
