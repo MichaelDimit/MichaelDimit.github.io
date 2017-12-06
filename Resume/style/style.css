@@ -1,5 +1,5 @@
 body {
-	background-color: #999;
+	background-color: #000;
 }
 
 .wraper {
@@ -47,6 +47,7 @@ h1 {
 }
 
 section {
+	background-image: url('img/layer.png');
 	margin: 30px 9%;
 	border-bottom: 1px dotted red;
 	display: flex;
@@ -84,6 +85,7 @@ li {
 	flex-basis: 480px;
 	line-height: 1.3em;
 	margin-bottom: 5px;
+	/*margin: 0 0 10px 15px;*/
 }
 
 main section:last-child {
