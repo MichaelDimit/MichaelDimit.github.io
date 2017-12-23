@@ -91,3 +91,13 @@ a {
 .social li {
 	margin: 0 15px;
 }
+
+.line {
+	content: '';
+	width: 1349px;
+    height: 1px;
+    background-color: #626262;
+    margin-top: 40px;
+    position: absolute;
+    left: 0;
+}
